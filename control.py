@@ -56,7 +56,7 @@ def porcentaje():
 print("Son las:",time.strftime('%H:%M'),"y el precio es de",precio_float[hora_int],"€/kWh")
 print("El precio  maximo es de:",max(precio_float))
 print("El precio minimo es de:",min(precio_float))
-print("La diferencia sobre el precio medio es:",porcentaje())
+print("La diferencia sobre el precio medio es:",porcentaje(),"%")
 print("El precio medio es: ",media())
 
 if precio_float[hora_int+1]>media(): #control por precio para desnexion de algun elemento electrico. Eliminar if si no se va a usar.   
